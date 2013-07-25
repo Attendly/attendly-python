@@ -39,4 +39,4 @@ Links
 
 * `website <http://attendly.com/>`_
 * `documentation <http://attendly.me/apidocs/>`_
-* `souce <https://github.com/Attendly/attendly-python>`_
+* `source <https://github.com/Attendly/attendly-python>`_

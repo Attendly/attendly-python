@@ -1,3 +1,3 @@
 from attendly import *
 
-from version import VERSION
+VERSION='0.2.3'
