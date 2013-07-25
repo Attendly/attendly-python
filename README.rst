@@ -2,6 +2,7 @@ Attendly python library
 =======================
 
 Python interface to the Attendly API
+
 **Note: This is a very early alpha release of the api.. things may change**
 
 Basic usage
@@ -12,18 +13,18 @@ Basic usage
     import attendly
 
     # Login (normally you would just store the apikey and only login once)
-	user = attendly.User.login('bobby7','password')
+    user = attendly.User.login('bobby7','password')
 
-	attendly.apikey(user['apikey'])
+    attendly.apikey(user['apikey'])
 
-	# Get a list of events
-	events = attendly.Event.list()
-	for e in events:
-		print e['event']['name']
+    # Get a list of events
+    events = attendly.Event.list()
+    for e in events:
+        print e['event']['name']
 
-	# Get an event
-	event = attendly.Event.get(events[0]['event']['id'])
-	print event['url']
+    # Get an event
+    event = attendly.Event.get(events[0]['event']['id'])
+    print event['url']
 
 Install via pip
 `````````````````
